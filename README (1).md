@@ -13,10 +13,7 @@ polymorphisms (nsSNPs), evaluates protein structure, stability and
 dynamics, and screens chemical and phytochemical libraries to identify
 potential lead compounds.
 
-## Aim
 
-To identify a novel therapeutic target in breast cancer and discover
-potential lead compounds for NUSAP1 using computational approaches.
 
 ## Objectives
 
@@ -32,18 +29,6 @@ potential lead compounds for NUSAP1 using computational approaches.
 -   Identify potential lead compounds through virtual screening of
     chemical and phytochemical libraries.
 
-## Background and Rationale
-
-NUSAP1 is a microtubule-associated protein involved in mitosis and cell
-division. The project background describes its association with cell
-proliferation, migration and invasion, and reports that elevated
-expression is associated with poor prognosis in multiple cancers.
-
-The literature review identified **87 reported breast-cancer hub
-genes**. Of these, **36 genes had no known therapeutic drug targets in
-the Therapeutic Target Database (TTD)**. NUSAP1 was selected for further
-investigation based on its recurrence among hub genes and its expression
-profile.
 
 ## Methodology
 
@@ -115,37 +100,36 @@ The computational workflow included the following stages:
 
 ## Key Results
 
-### Hub-gene analysis and NUSAP1 selection
+   ### Hub-gene analysis and NUSAP1 selection
 
--   Total reported hub genes: **87**
--   Hub genes with known drug targets: **51**
--   Hub genes without known drug targets: **36**
--   NUSAP1 was selected as the candidate gene based on its hub-gene
-    recurrence and expression analysis.
+    -   Total reported hub genes: **87**
+    -   Hub genes with known drug targets: **51**
+    -   Hub genes without known drug targets: **36**
+    -   NUSAP1 was selected as the candidate gene based on its hub-gene
+         recurrence and expression analysis.
 
-### NUSAP1 variant analysis
+   ### NUSAP1 variant analysis
 
-Four variants were evaluated:
+   Four variants were evaluated:
 
-  ------------------------------------------------------------------------
-  Variant      Amino-acid          MUpro ΔΔG I-Mutant 2.0    MetaRNN score
+    ------------------------------------------------------------------------
+    Variant      Amino-acid          MUpro ΔΔG I-Mutant 2.0    MetaRNN score
                change                        stability    
-  ------------ ------------ ---------------- ------------ ----------------
-  R434M        Arg → Met              -0.539 Decrease                0.823
+    ------------ ------------ ---------------- ------------ ----------------
+    R434M        Arg → Met              -0.539 Decrease                0.823
 
-  K404E        Lys → Glu              -0.343 Decrease                0.727
+    K404E        Lys → Glu              -0.343 Decrease                0.727
 
-  N386S        Asn → Ser              -1.332 Decrease                0.335
+    N386S        Asn → Ser              -1.332 Decrease                0.335
 
-  T114N        Thr → Asn              -0.407 Decrease                0.039
-  ------------------------------------------------------------------------
+    T114N        Thr → Asn              -0.407 Decrease                0.039
+   ------------------------------------------------------------------------
 
-The pathogenicity ranking reported in the presentation was:
+   The pathogenicity ranking reported in the presentation was:
 
-**R434M \> K404E \> N386S \> T114N**
+ **R434M \> K404E \> N386S \> T114N**
 
-All four variants showed negative ΔΔG values and were predicted to
-decrease protein stability.
+   All four variants showed negative ΔΔG values and were predicted to decrease protein stability.
 
 ### Structure validation
 
